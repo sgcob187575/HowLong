@@ -146,7 +146,7 @@ struct ContentView: View {
             }.onAppear(perform: {
                 if self.die.dietime.count==0
                 {
-                    let date2=Date() + Double.random(in: 0..<1892160000)
+                    let date2=Date() + Double.random(in: 0..<1892160001)
                     self.die.dietime.append(.init(dietime: date2))
                     
                 }
